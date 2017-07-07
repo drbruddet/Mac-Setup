@@ -56,6 +56,7 @@ brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" spotify-notifications
 brew cask install --appdir="/Applications" the-unarchiver
+brew cask install --appdir="/Applications" discord
 
 # INSTALL X-CODE DEV TOOLS
 echo 'INSTALL XCODE DEV TOOLS'
@@ -156,6 +157,7 @@ defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Opera.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Google Chrome.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
 defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Skype.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
+defaults write com.apple.dock persistent-apps -array-add '<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/Discord.app</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>'
 
 ## ************ INSTALL END *********
 
